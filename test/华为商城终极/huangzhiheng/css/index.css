@@ -1,0 +1,652 @@
+
+body{
+    background-color: #F6F6F6;
+}
+.nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.nav_top{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: linear-gradient(#057ECC, #09B4DF);
+}
+.nav_top .zuo{
+    margin-right: 30px;
+}
+.nav_top .zuo li a{
+    margin-right: 10px;
+    color: #fff;
+    font-size: 15px;  
+}
+.nav_top .you li a{
+    margin-right: 3px;
+    color: #fff;
+    font-size: 15px;
+}
+.nav_top .you li img{
+    width: 13px;
+    height: 15px;
+}
+
+/* 搜索导航栏 */
+
+.nav_footer {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    position: relative;
+}
+.nav_footer li a{
+    margin:0 15px;
+    padding: 0 15px;
+    color: #ccc;    
+    font-size: 20px;
+    height: 60px;
+}
+.nav_footer li a:hover{
+    border-bottom: #057ECC 3px solid;
+    box-sizing: border-box;
+
+}
+.nav_footer li .qq{
+    margin-left: 0;
+    padding-left: 0;
+}
+.nav_footer li .qq:hover{
+    border: none;
+}
+.sou input{
+    width: 220px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.ding{
+    position: relative;
+}
+.sou{
+    position: absolute;
+    right: 0;
+}
+.sou img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+.sou span:nth-child(3){ 
+    height: 20px;
+    line-height: 20px;
+    background-color: #eee;
+    padding:0 5px;
+    position: absolute;
+    top: 22px;
+    right: 95px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.sou span:last-child{
+    height: 20px;
+    line-height: 20px;
+    background-color: #eee;
+    padding:0 5px;
+    position: absolute;
+    top: 22px;
+    right: 40px; 
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+
+/* **************************************** */
+/* 隐藏导航 */
+.hidden{
+    width: 100%;
+    background: linear-gradient(#057ECC, #09B4DF);
+
+}
+.hidden dl{
+    float: left;
+    width: 190px;
+    margin: 0 3px;
+    
+}
+.hidden dl dd a{
+    font-size: 15px;
+    color: #fff;
+    margin: 20px 0;
+}
+.hidden dl dt a{
+    font-size: 18px;
+    color: #fff;
+    margin: 30px 0 10px;
+}
+.hidden dl dt{
+    position: relative;
+}
+.hidden dl dt span{
+    border: 5px solid #fff;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    top: 5px;
+    left: -15px;
+}
+
+
+
+
+
+/* ************************************************************ */
+/* 广告区域 */
+
+.banner{
+    margin-top: 90px;
+    position: relative;
+}
+/* #banner1{
+    position:absolute;
+    left:0;
+    top:0;
+
+} */
+.banner_div{
+    width: 100%;
+    height: 17px;
+    background: url('../img/skew_mask.png') no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+}
+.banner_left{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 30px;
+    background: url('../img/banner_left.png') no-repeat rgba(0,0,0,0.3) 45% 50%;
+}
+.banner_right{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    background: url('../img/banner_right.png') no-repeat rgba(0,0,0,0.3) 45% 50%;
+}
+.banner_ul li{
+    width: 50px;
+    height: 2px;
+    float: left;
+    background-color: blueviolet;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.banner_ul li img{
+    transform: translateY(-5px) translateX(-1197px);
+}
+.banner_ul{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 33px;
+}
+
+
+
+
+
+/* ********************************************************
+型号列表 */
+.pro{
+    background-color: #fff;
+    position: relative;
+}
+.index_pro h2{
+    padding: 50px 0 10px;
+    /* margin: 0 auto; */
+    text-align: center;
+    /* line-height: 25px; */
+    font-size: 36px;
+}
+.index_pro_box{
+    height: 40px;
+    /* width: 100%; */
+    padding: 30px 215px;
+    
+
+}
+.index_pro_box .pro_box1{
+    width: 150px;
+    height: 30px;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    float: left;
+    border-radius: 8px;
+    position: relative;
+    font-size: 20px;
+    color: #aaa;
+}
+.index_pro_box .pro_box2{
+    width: 0;
+    height: 0;
+    border-top: 5px solid #09B4DF;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    position: absolute;
+    right: 10px;
+    top: 45%;
+}
+.pro_box1 ul{
+    width: 169px;
+    position: absolute;
+    left: 0;
+    top:100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    z-index: 3;
+
+}
+.pro_box1 ul li{
+    font-size: 17px;
+    color: #000;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 10px;
+}
+.pro_box1 ul li:last-child{
+    border: none;
+}
+
+/* ******************************************************
+调试价钱 */
+
+.honor{
+    /* width: 100%; */
+    height: 510px;
+    padding: 0 120px;
+
+
+}
+.honor_right{
+    width: 400px;
+    margin-top: 90px;
+    margin-left: 60px;
+}
+.honor_right img{
+    width: 155px;
+    height: 35px;
+    margin-bottom: 15px;
+
+}
+.honor_right li{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.honor_right  a:nth-child(3) input{
+    width: 133px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    background-color: #e5004f;
+    border-radius: 8px;
+    /* margin: 30px 30px; */
+    font-size: 16px;
+    color: #fff;
+    float: left;
+    margin-right: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.honor_right  a:nth-child(4) input{
+    width: 133px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    background-color: #fff;
+    border: #000 1px solid;
+    border-radius: 8px;
+    /* margin: 30px 30px; */
+    font-size: 16px;
+    color: #000;
+    float: left;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.honor_btm{
+    width: 100%;
+    height: 17px;
+    background: url('../img/skew_mask.png') no-repeat  0 -80px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+
+
+
+/* ********************************************************
+相关推荐 */
+.tui{
+    margin: 30px 0;
+    width: 100%;
+}
+.tui h4{
+    font-size: 24px;
+    border-left: #057ECC 3px solid;
+    padding-left: 3px;
+    float: left;
+}
+.tui a {
+    font-size: 16px;
+    float: right;
+}
+
+.tj_box{
+    
+    width: 285px;
+    height: 370px;
+    background-color: #fff;
+    padding: 30px 0;
+    box-sizing: border-box;
+    margin-right: 20px;
+    float: left;
+    position: relative;
+    
+}
+.tj_box:hover{
+    box-shadow:0px 30px 100px #c8c8c8;
+    transition: all 0.2s linear;
+}
+.tj_box strong{
+    display: block;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.tj_box span{
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tj_box img{
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.tj_box input{
+    font-size: 14px;
+    background-color: #e5004f;
+    padding: 6px 20px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 27px 10px 0;
+    cursor: pointer;
+}
+.tj_box input:last-child{
+    background-color: #fff;
+    color: #707070;
+    border: 1px solid #707070;
+}
+.tj_box:nth-child(5){
+    margin: 0;
+}
+.tj_box div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background-color: #F08B39;
+    position: absolute;
+    right: 23px;
+    top: 81px;
+
+}
+
+/* *************************
+推荐购买商城 */
+.tj_bg{
+   
+    margin-top: 426px;
+    width: 100%;
+    height: 480px;
+    position: relative;
+    background: url('../img/tj_bg.jpg') no-repeat;
+}
+.tj_bg_right{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 310px;
+    height: 417px;
+    color: #fff;
+}
+.tj_bg_right p{
+    color: #fff;
+    font-size: 20px;
+    margin: 20px;
+}
+.tj_bg_right span{
+    font-size: 14px;
+    margin: 0 0 20px 20px;
+    margin-bottom: 20px;
+}
+.tj_bg_right div img{
+    margin-top: 50px;
+    margin-right: 48px; 
+}
+.tj_bg_a{
+    position: absolute;
+    left: 310px;
+    top: 265px;
+    width: 175px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background: url('../img/btn_pink.png') no-repeat;
+}
+.tj_bg_img{
+    position: absolute;
+    left: 225px;
+    top: 175px;
+}
+.nr div{
+    float: left;
+    margin-right: 30px;
+    width: 380px;
+    height: 330px;
+    background-color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+}
+.nr span{
+    display: block;
+    overflow: hidden;
+    width: 380px;
+    height: 270px;
+}
+.nr img{
+    overflow: hidden;
+    width: 380px;
+    height: 270px;
+    transition: all 0.2s linear;
+}
+.nr  img:hover{
+    transform: scale(1.1);
+
+}
+.nr div:nth-child(3){
+    margin-right: 0;
+}
+.nr div p:nth-child(2){
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #000;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.nr div p:nth-child(3){
+    font-size: 14px;
+    color: #909090;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+/* *******************************
+联系客服 */
+.kf{
+    margin-top: 30px;
+    width: 100%;
+    height: 413px;
+    position: relative;
+}
+.kf_lf{
+    padding: 130px 0 0;
+    box-sizing: border-box;
+    width: 50%;
+    height: 413px;
+    float: left;
+    background: url('../img/index_block1.jpg') no-repeat;
+}
+.kf_lf:nth-child(2){
+    background: url('../img/index_block2.jpg') no-repeat;
+}
+.kf_lf p{
+    margin-bottom:20px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff; 
+}
+.kf_lf a{
+    width: 175px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background: url('../img/btn_pink.png') no-repeat;
+    margin:0 auto;
+    cursor: pointer;
+}
+.kf_top{
+    width: 100%;
+    height: 17px;
+    background: url('../img/skew_mask.png') no-repeat 0  -60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+
+/* ****************************************
+结尾 */
+.footer{
+    /* width: 100px; */
+    height: 291px;
+    background: linear-gradient(#057ECC, #09B4DF);
+    padding: 40px 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.footer dl{
+        float: left;
+        margin-right: 50px;
+}
+.footer dl dt a{
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.footer dl dd a{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.footer  .dd{
+    margin: 0;
+    border-left: 1px solid #fff;
+    height: 180px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.dd .a{
+    display: block;
+    width: 128px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    border: #fff 1px solid;
+    border-radius: 5px;
+    
+}
+.dd_right{
+    width: 160px;
+    height: 106px;
+    margin-left: 21px;
+}
+.dd_aa{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right:5px ;
+    float: left;
+}
+.foot{
+    margin:20px 0; 
+}
+.foot p{
+    color: #707070;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.foot p span{
+    margin: 0 8px; 
+}
+
+.fixed{
+    position: fixed;
+    /* bottom: 0;  */
+    /* right: 110px; */
+    display: block;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    background-color: #09B4DF;
+    display: none;
+}
+.fixed:hover{
+    background-color: #057ECC;
+}
+.fixed_div{
+    position: fixed;
+    width: 46px;
+    bottom: 70px;
+    left: 50%;
+    margin-left: 600px;
+}
+

@@ -1,0 +1,245 @@
+
+body{
+    background: url(../img/智能小艺/bj.jpg) no-repeat;
+    
+}
+
+
+.chat_box{
+    height: 750px;
+    position: relative;
+}
+
+.footer{
+    font-size: 16px;
+    margin-top: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+
+}
+/* 左侧logo */
+.nav{
+    width:263px;
+    height: 647px; 
+    background: url(../img/智能小艺/zbj.jpg);
+    float: left;
+}
+
+
+.box_left img{
+    width: 264px;
+    height: 32px;
+    margin: 40px 0;
+}
+
+/* 左侧标题 */
+
+.nav_box span{
+    float: left;
+    margin-top: 8px;
+}
+
+.nav_box span:nth-child(1){
+    height: 1px;
+    width: 70px;
+    border-bottom: 1px dashed #fff;
+    display: block;
+}
+
+.nav_box{
+    padding: 0 25px;
+}
+
+
+.nav_box h2{
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.nav_box span:nth-child(3){
+    height: 1px;
+    width: 70px;
+    border-bottom: 1px dashed #fff;
+    display: block;
+    float: right;
+}
+
+/* 左侧主体 */
+.trouble ul{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.trouble li{
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.trouble li a{
+    color: #fff;
+}
+
+
+.chat{
+    width: 645px;
+    height: 646px;
+    /* border: 1px solid #fff;  */
+    background-color: #fff;
+    border-top: 1px solid black;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.chat_two{
+    width:645px;
+    height: 560px;
+    overflow: hidden;
+    overflow:scroll;
+}
+
+.chat_one{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    width: 645px;
+
+}
+.chat_one span{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 10;
+    text-align: center;
+    font-size: 20px;
+    color: #ccc;
+}
+
+
+.chat_one input{
+    width: 560px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin-left: 35px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+
+/* 右侧 */
+
+.chat_right{
+    width:263px;
+    height: 647px;
+    background: rgb(239, 243, 247);
+    border: 1px solid black; 
+    float: left;
+}
+
+
+.right_top{
+    width:263px;
+    height: 140px; 
+    overflow: hidden;
+    float: left;
+   
+}
+
+.right_top img{
+    width:263px;
+    height: 140px; 
+}
+.right_top ul{
+    width: 1315px;
+
+}
+.right_top li{
+    float: left;
+}
+
+.dotteds{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+
+/* 右侧下部 */
+.shop span{
+    display: block;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.shop_nav{
+    width: 261px;
+    height: 336px;
+
+    margin-top: 20px;
+}
+
+.shop_nb ul{
+    float: left;
+    width: 31.333%;
+    text-align: center;
+    margin-top: 15px;;
+    height: 60px;
+    cursor: pointer;
+    overflow: hidden;
+   position: relative;
+   
+   
+}
+
+
+.shop_nb img{
+    width: 40px;
+    height: 40px;
+   position: absolute;
+    top: 0;
+    left: 20px;
+
+}
+
+.shop_nb li a{
+    display: block;
+    margin-top: 25px;
+}
+
+
+
+.chat_one .inp_1{
+    width:78px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #c01920;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    right: 65px;
+    top: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+

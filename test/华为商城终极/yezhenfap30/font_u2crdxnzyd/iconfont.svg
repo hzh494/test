@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="jiankuohaocudayou-copy" unicode="&#58907;" d="M276.755-46.936000000000035c28.497-29.315 74.739-29.315 103.307 0l367.236 378.011c28.483 29.367 28.483 76.982 0 106.291l-367.236 377.997c-28.562 29.367-74.806 29.367-103.307 0-28.546-29.325-28.546-76.929 0-106.304l315.6-324.841-315.599-324.803c-28.545-29.367-28.544-76.973 0-106.356l0 0z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="jiankuohaocudayou-copy1" unicode="&#58625;" d="M747.245 814.936c-28.497 29.315-74.739 29.315-103.307 0l-367.236-378.01100001c-28.483-29.367-28.483-76.982 1e-8-106.29099999l367.23599999-377.997c28.562-29.367 74.806-29.367 103.307 0 28.546 29.325 28.54600001 76.929 0 106.30399999l-315.6 324.84100001 315.599 324.803c28.545 29.367 28.544 76.973 0 106.356l0 0z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

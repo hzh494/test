@@ -1,0 +1,99 @@
+/*css初始化*/
+/*1.清除默认样式*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+img {
+	/*清除图片在ie6下的默认边框*/
+	border: 0;
+	/*清除图片底部的缝隙*/
+	vertical-align: middle;
+}
+input {
+	/*清除默认边框*/
+	border: 0;
+	/*清除默认的轮廓线*/
+	outline: 0;
+}
+select {
+	/*清除默认边框*/
+	border: 0;
+	/*清除默认的轮廓线*/
+	outline: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+em, i{
+	font-style: normal;
+}
+/*2.常用样式*/
+body {
+	font: 12px arial, 'microsoft yahei';
+	color: #000;
+}
+/* 代表普通版心,一般用于页面主体部分 */
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+/* 代表头部栏版心,相对于w来说wh是大版心 */
+.wh {
+	width: 1920px;
+	margin: 0 auto;
+}
+/* tl代表通栏 */
+.tl {
+	width: 100%;
+	margin: 0 auto;
+}
+a {
+	color: #000;
+}
+a:hover {
+	color: #c81623;
+}
+.red {
+	color: #c81623;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+.f12 {
+	font-size: 12px;
+}
+.f14 {
+	font-size: 14px;
+}
+.f16 {
+	font-size: 16px;
+}
+.f18 {
+	font-size: 18px;
+}
+.f20 {
+	font-size: 20px;
+}
+.f24 {
+	font-size: 24px;
+}
+.tc {
+	text-align: center;
+}

@@ -1,0 +1,519 @@
+.one {
+  position: absolute;
+  height: 111px;
+  background-color: #fff;
+  left: 481px;
+  top: 42px;
+  z-index: 10;
+  border-radius: 6px;
+  display: none;
+  width: 95px;
+  text-align: center;
+}
+.one li {
+  height: 25px;
+}
+.tow {
+  position: absolute;
+  height: 111px;
+  background-color: #fff;
+  left: 588px;
+  top: 42px;
+  z-index: 10;
+  border-radius: 6px;
+  display: none;
+  width: 95px;
+  text-align: center;
+}
+.tow li {
+  height: 25px;
+}
+.logo {
+  height: 60px;
+  position: relative;
+}
+.logo a:hover {
+  color: #AA8361;
+}
+.logo li {
+  float: left;
+  margin-right: 40px;
+  overflow: hidden;
+}
+.logo a {
+  height: 100%;
+  line-height: 70px;
+  text-align: center;
+  display: block;
+  font-weight: 700;
+}
+.fr {
+  float: right;
+}
+.box2 {
+  float: left;
+  width: 100%;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0;
+}
+.box2 ul {
+  width: 7680px;
+  position: absolute;
+  left: -20%;
+  top: 0;
+  overflow: hidden;
+}
+.box2 ul li {
+  float: left;
+  width: 1920px;
+}
+.box2 ul li a {
+  display: block;
+  width: 100%;
+  height: 450px;
+}
+.box2 ul li a img {
+  height: 100%;
+  width: 100%;
+}
+.box2 .btns {
+  width: 100%;
+  height: 60px ;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.box2 .btns a {
+  text-decoration: none;
+  width: 40px ;
+  height: 60px ;
+  text-align: center;
+  line-height: 55px;
+  color: #fff;
+  font-size: 40px;
+  background-color: #9e616b;
+  opacity: 0.5;
+  display: block;
+  float: left;
+  border-radius: 20px;
+}
+.box2 .btns a:nth-child(2) {
+  float: right;
+}
+.box2 .dotteds {
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+.box2 .dotteds span {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+.box2 .active {
+  box-shadow: 0px 0px 3px 5px rgba(255, 255, 255, 0.9);
+}
+.box2 .curren {
+  transform: scale(1.1);
+}
+.denglu {
+  position: absolute;
+  left: 10%;
+  top: 25px;
+  width: 296px;
+  height: 386px;
+  background-color: #fff;
+  padding: 25px 15px;
+  box-sizing: border-box;
+  z-index: 10;
+}
+.denglu p {
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-weight: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.denglu .a1 {
+  margin-left: 10px;
+}
+.denglu .quanyi {
+  width: 240px;
+  height: 2px;
+  background-color: #ccc;
+  margin: 35px 12px;
+  position: relative;
+}
+.denglu .quanyi h4 {
+  position: absolute;
+  left: 21%;
+  top: -10px;
+  width: 100px;
+  padding: 0 21px;
+  background-color: #fff;
+  font-size: 16px;
+}
+.denglu li {
+  height: 83px;
+  width: 81px;
+  text-align: center;
+  margin-left: 7px;
+  float: left;
+}
+.denglu li p {
+  font-weight: 700;
+}
+.box1 {
+  position: relative;
+}
+.clear {
+  overflow: hidden;
+  margin-top: 30px;
+}
+.clear ul {
+  overflow: hidden;
+}
+.clear ul li {
+  float: left;
+  height: 80px;
+  width: 100px;
+  text-align: center;
+  margin-left: 9px;
+}
+.clear li:nth-child(2n) {
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.clear .active {
+  box-shadow: 1px 1px 8px 3px #ccc;
+}
+.clear #top11 {
+  width: 1190px;
+  height: 120px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+.clear #top11 img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.clear .top2 {
+  width: 1190px;
+  height: 120px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+.clear .top2 img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.clear .lins {
+  display: flex;
+  height: 196px;
+}
+.clear .lins a {
+  flex: 1;
+  margin-right: 7px;
+  margin-left: 5px;
+  height: 196px;
+}
+.clear .top {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+}
+.clear .top h1 {
+  float: left;
+  padding-left: 12px;
+}
+.clear .top span {
+  float: right;
+  padding: 0 10px;
+  display: inline-block;
+}
+.clear .top .span1 {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: inline-block;
+}
+.clear .top ul {
+  height: 100%;
+  float: right;
+}
+.clear .top ul li {
+  float: left;
+  width: 155px;
+  padding: 0;
+}
+.clear .iphone {
+  height: 360px;
+}
+.clear .iphone span {
+  width: 180px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+.clear .iphone .huawei {
+  width: 100%;
+  height: 100%;
+  padding: 13px;
+  box-sizing: border-box;
+}
+.clear .iphone .huawei .kuang1 {
+  margin: 0;
+}
+.clear .iphone .huawei li {
+  display: block;
+  width: 188px;
+  height: 340px;
+  float: left;
+  padding: 0;
+}
+.clear .iphone .huawei li img {
+  width: 188px;
+}
+.clear .iphone .huawei p {
+  padding: 15px 39px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.clear .iphone .huawei .zhuce {
+  padding: 6px;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+.clear .computer {
+  height: 360px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.clear .computer a {
+  padding-left: 12px;
+  font-weight: bold;
+}
+.clear .computer ul {
+  display: block;
+  height: 340px;
+  float: left;
+  padding: 13px;
+}
+.clear .computer ul .kuang1 {
+  margin: 0;
+}
+.clear .computer ul li {
+  display: block;
+  width: 188px;
+  height: 320px;
+  float: left;
+  padding: 0;
+}
+.clear .computer ul li img {
+  width: 188px;
+}
+.clear .computer p {
+  padding: 15px 26px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.clear .computer .zhuce {
+  padding: 6px;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+.clear .computer span {
+  float: right;
+  padding-right: 18px;
+  padding-left: 10px;
+}
+.clear .computer .hezi {
+  float: right;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 7px;
+}
+.clear .computer .hezi .conter {
+  border-right: 1px solid #ccc;
+  padding-left: 18px;
+  padding-right: 10px;
+}
+.shoubiao {
+  width: 100%;
+  height: 366px;
+  position: relative;
+  overflow: hidden;
+}
+.shoubiao a {
+  margin-left: 12px;
+}
+.shoubiao ul {
+  width: 1387px;
+  position: absolute;
+  left: 1%;
+  top: 18px;
+}
+.shoubiao ul li {
+  float: left;
+  width: 18px;
+}
+.shoubiao ul li .kuang1 {
+  margin: 0;
+}
+.shoubiao ul li .zhu {
+  width: 100%;
+  padding: 7px 8px;
+  margin: 0;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+.shoubiao ul li .zhu a {
+  padding-left: 0;
+}
+.shoubiao ul li img {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  background-color: #FAF5EF;
+  height: 200px;
+  padding-top: 50px;
+}
+.footer .w {
+  margin: 0 auto;
+  border: 1px dashed #AA8361;
+  height: 170px;
+  border-radius: 10px;
+}
+.footer .w .l {
+  margin-top: 25px;
+  padding: 5px 15px;
+  border-right: 1px dashed #AA8361;
+  font-weight: bolder;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+  float: left;
+}
+.footer .w .l span {
+  height: 27px;
+}
+.footer .w .r {
+  float: left;
+}
+.footer .w .r li {
+  float: left;
+  height: 150px;
+  width: 250px;
+  margin-left: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.last {
+  background-color: #F0F0F0;
+  height: 350px;
+  padding-top: 30px;
+}
+.conterr {
+  height: 300px;
+  padding-top: 50px;
+  font-size: 14px;
+}
+.conterr dl {
+  float: left;
+  width: 163px;
+  height: 25px;
+  text-align: center;
+}
+.conterr dt {
+  font-weight: bold;
+}
+.conterr dd {
+  height: 25px;
+}
+.logo a {
+  height: 50px;
+}
+.logo {
+  height: 70px;
+}
+.last {
+  width: 100%;
+}
+.l_top {
+  padding-top: 30px;
+  width: 100%;
+}
+.l_top ul {
+  width: 100%;
+  display: flex;
+}
+.l_top li {
+  flex: 1;
+  line-height: 46px;
+}
+.l_top img,
+p {
+  display: inline-block;
+}
+.l_top img {
+  vertical-align: middle;
+}
+.l_top p {
+  font-size: 20px;
+}
+.fixedtool {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  margin-left: -676px;
+  width: 66px;
+  background-color: #fff;
+  display: none;
+}
+.fixedtool li {
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 12px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+.fixedtool .curren {
+  background-color: #c81623;
+  color: #fff;
+}
+.zcc {
+  background-color: #AA8361;
+  color: #fff;
+  font-size: 17px;
+  border-bottom: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  position: fixed;
+  left: 10px;
+  bottom: 20px;
+}

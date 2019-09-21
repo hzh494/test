@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./jq/css/style.css">
+    <script src="./jq/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/xiaoyi.css">
+
+<style>
+.js_btn{
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: 20px; 
+    
+}
+
+.js_chat{
+    /* width: 560px; */
+    height: 40px;
+    margin-top: 20px;
+}
+
+.js_float_div{
+    float: right;
+}
+
+.js_img{
+    width: 38px;
+    height: 38px;
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+
+
+.js_span{
+    background-color: #c01920;
+    color: white;
+    padding: 10px 14px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+/* 回答 */
+
+.huida_div{
+    margin-top: 20px;
+    /* padding: 0 20px; */
+    box-sizing: border-box;
+    float: left;
+}
+
+
+
+.hd_div{    
+    float: left;
+    margin-bottom: 20px;
+}
+
+
+
+.hd_span{
+    float: left;
+    font-size: 14px;
+    background-color: #ebebeb;
+    color: #000;
+    border-radius: 10px;
+    width: 397px;
+    padding: 9px 14px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    position: relative;
+}
+
+.hd_img{
+    width: 38px;
+    height: 38px;
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+/* 输入 */
+
+.tw_box{
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    float: right;
+    margin-bottom: 20px;
+    /* padding: 0 65px 20px; */
+}
+
+.tiwen_span{
+    /* width: 560px; */
+    height: 40px;
+    margin-top: 20px;
+    display: block;
+}
+
+
+
+.dt_div{
+    background-color: #c01920;
+    color: white;
+    padding: 10px 14px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid;
+    border-radius: 10px;
+    float: right;
+    margin-right: 10px;
+    z-index: 10;
+}
+
+
+.tw_img{
+    width: 38px;
+    height: 38px;
+    float: right;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.tw_span{
+    background-color: #c01920;
+    color: white;
+    padding: 10px 14px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid;
+    border-radius: 10px;
+    float: right;
+    margin-right: 10px;
+    z-index: 10;
+}
+
+/* .chat_xf{
+    position: absolute;
+    border: 1px solid #ebebeb;
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+} */
+
+
+.chat_xs{
+    display: block;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.zhineng_box{
+    width: 100%;
+    /* padding: 0 20px; */
+    box-sizing: border-box;
+    margin-top: 20px;  
+}
+
+
+.zn_div{
+    margin-top: 20px;
+    /* padding: 0 20px; */
+    box-sizing: border-box;
+    float: left;
+}
+
+.zn_span{
+    float: left;
+    font-size: 14px;
+    background-color: #ebebeb;
+    color: #000;
+    border-radius: 10px;
+    padding: 9px 14px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    position: relative;
+}
+
+.zn_img{
+    width: 38px;
+    height: 38px;
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+    <!-- 整体盒子 -->
+    <div class="chat_box w">
+        <!-- 左侧上部logo -->
+        <div class="nav ">
+            <div class="box_left">
+                <img src="./img/智能小艺/zt.png" alt="">
+            </div>
+
+            <!-- 左侧标题 -->
+            <div class="nav_box">
+                <span></span>
+                <h2>热门问题</h2>
+                <span></span>
+            </div>
+            <!-- 左侧主体 -->
+            <div class="trouble">
+                <ul>
+                    <li><a href="javascript:;">荣耀20S 0元预约时间</a></li>
+                    <li><a href="javascript:;">预约了是否代表购买成功</a></li>
+                    <li><a href="javascript:;">抢购订单能否修改收货地址</a></li>
+                    <li><a href="javascript:;">下单后从哪发货</a></li>
+                    <li><a href="javascript:;">如何查看订单状态</a></li>
+                    <li><a href="javascript:;">发货后什么时候到货</a></li>
+                    <li><a href="javascript:;">取消订单退款多久到账？</a></li>
+                    <li><a href="javascript:;">退换货时间从什么时候算起？</a></li>
+                    <li><a href="javascript:;">没有发票怎么维保</a></li>
+                    <li><a href="javascript:;">关于支付诈骗套现华为商城公告说明</a></li>
+                </ul>
+
+
+                
+            </div>
+        </div>
+
+        <!-- 中部聊天框 -->
+        <div class="chat">
+
+
+            <div class="chat_two">
+                <span class="chat_xs">客服小艺正在为您服务</span>
+            </div>
+            <div class="chat_one">
+                <span>+</span>
+                <input class="inp" type="text" placeholder="请输入您要咨询的问题">
+                <input type="button" value="发送" class="inp_1">
+            </div>
+            <div class="chat_xf"></div>
+
+
+
+            <div class="hide_box" style="display: none">
+                    <span>华为畅享10 Plus新品首发
+                            9月5日16:08- 9月10日8:30，100元订金预订赠配件好礼，快来参与吧~
+                            
+                            1、订金预订享好礼规则：所有100元订金用户，在9月5日 – 9月10日 08：59内成功付完尾款，均可获赠华为自拍杆一个。奖品将会在订单中显示，随商品一同发放。
+                            2、预订时间：9月5日16:08 - 9月10日 08:30，订金金额为100元，支付订金后无需抢购；
+                            3、订金支付：提交订单后选择支付方式完成支付，最长付款时效为4小时，逾期订单自动取消；
+                            4、尾款支付：9月10日09:00-9月13日23:59期间前往"订单中心-我的订单"支付尾款，仅限购买预订时所选择的商品</span>
+                </div>
+
+
+
+            <div class="zn_box" style="display: none">
+                <p>您好，智能小艺为您服务</p>
+            </div>
+        </div>
+
+
+
+
+        <!-- 右侧 -->
+        <div class="chat_right">
+            <!-- 上面轮播图 -->
+            <div id="demo01" class="flexslider">
+
+                <ul class="slides">
+
+                    <li>
+                        <div class="img"><img src="./img/智能小艺/lb1.jpg" alt="" /></div>
+                    </li>
+
+                    <li>
+                        <div class="img"><img src="./img/智能小艺/lb1.jpg" alt="" /></div>
+                    </li>
+
+                    <li>
+                        <div class="img"><img src="./img/智能小艺/lb1.jpg" alt="" /></div>
+                    </li>
+
+                    <li>
+                        <div class="img"><img src="./img/智能小艺/lb1.jpg" alt="" /></div>
+                    </li>
+
+                    <li>
+                        <div class="img"><img src="./img/智能小艺/lb5.png" alt="" /></div>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <script type="text/javascript" src="./jq/js/jq.js"></script>
+
+            <script type="text/javascript">
+            </script>
+
+            <!-- 右侧下部 -->
+
+            <div class="shop">
+                <span>自助服务</span>
+            </div>
+
+
+            <div class="shop_nav">
+                <div class="shop_nb">
+                    <ul class="shop_ul">
+                        <li>
+                            <img src="./img/智能小艺/7cd8b33a_92aa_434d_aeca_ca7b7a7c8b32.png" class="shop_img">
+                            <img src="./img/智能小艺/7dfa8aa9_986d_4e4e_b40d_bee9745038a2.png" style="display: none"
+                                class="shop_two">
+                            <br>
+                            <a href="javascript:;">买手机</a>
+                        </li>
+                    </ul>
+
+
+
+                    <ul>
+                        <li>
+                            <img src="./img/智能小艺/7cd8b33a_92aa_434d_aeca_ca7b7a7c8b32.png" class="shop_img">
+                            <img src="./img/智能小艺/7dfa8aa9_986d_4e4e_b40d_bee9745038a2.png" style="display: none"
+                                class="shop_two">
+                            <br>
+                            <a href="javascript:;">买手机</a>
+                        </li>
+                    </ul>
+
+
+                    <ul>
+                        <li>
+                            <img src="./img/智能小艺/7cd8b33a_92aa_434d_aeca_ca7b7a7c8b32.png" class="shop_img">
+                            <img src="./img/智能小艺/7dfa8aa9_986d_4e4e_b40d_bee9745038a2.png" style="display: none"
+                                class="shop_two">
+                            <br>
+                            <a href="javascript:;">买手机</a>
+                        </li>
+                    </ul>
+
+
+                    <ul>
+                        <li>
+                            <img src="./img/智能小艺/7cd8b33a_92aa_434d_aeca_ca7b7a7c8b32.png" class="shop_img">
+                            <img src="./img/智能小艺/7dfa8aa9_986d_4e4e_b40d_bee9745038a2.png" style="display: none"
+                                class="shop_two">
+                            <br>
+                            <a href="javascript:;">买手机</a>
+                        </li>
+                    </ul>
+
+
+
+                    <ul>
+                        <li>
+                            <img src="./img/智能小艺/7cd8b33a_92aa_434d_aeca_ca7b7a7c8b32.png" class="shop_img">
+                            <img src="./img/智能小艺/7dfa8aa9_986d_4e4e_b40d_bee9745038a2.png" style="display: none"
+                                class="shop_two">
+                            <br>
+                            <a href="javascript:;">买手机</a>
+                        </li>
+                    </ul>
+
+
+
+                    <ul>
+                        <li>
+                            <img src="./img/智能小艺/7cd8b33a_92aa_434d_aeca_ca7b7a7c8b32.png" class="shop_img">
+                            <img src="./img/智能小艺/7dfa8aa9_986d_4e4e_b40d_bee9745038a2.png" style="display: none"
+                                class="shop_two">
+                            <br>
+                            <a href="javascript:;">买手机</a>
+                        </li>
+                    </ul>
+
+
+
+                    <ul>
+                        <li>
+                            <img src="./img/智能小艺/7cd8b33a_92aa_434d_aeca_ca7b7a7c8b32.png" class="shop_img">
+                            <img src="./img/智能小艺/7dfa8aa9_986d_4e4e_b40d_bee9745038a2.png" style="display: none"
+                                class="shop_two">
+                            <br>
+                            <a href="javascript:;">买手机</a>
+                            
+                        </li>
+                    </ul>
+
+
+
+
+                    <ul>
+                        <li>
+                            <img src="./img/智能小艺/7cd8b33a_92aa_434d_aeca_ca7b7a7c8b32.png" class="shop_img">
+                            <img src="./img/智能小艺/7dfa8aa9_986d_4e4e_b40d_bee9745038a2.png" style="display: none"
+                                class="shop_two">
+                            <br>
+                            <a href="javascript:;">买手机</a>
+                        </li>
+                    </ul>
+
+
+
+
+                    <ul>
+                        <li>
+                            <img src="./img/智能小艺/7cd8b33a_92aa_434d_aeca_ca7b7a7c8b32.png" class="shop_img">
+                            <img src="./img/智能小艺/7dfa8aa9_986d_4e4e_b40d_bee9745038a2.png" style="display: none"
+                                class="shop_two">
+                            <br>
+                            <a href="javascript:;">买手机</a>
+                        </li>
+                    </ul>
+
+
+                    <ul>
+                        <li>
+                            <img src="./img/智能小艺/7cd8b33a_92aa_434d_aeca_ca7b7a7c8b32.png" class="shop_img">
+                            <img src="./img/智能小艺/7dfa8aa9_986d_4e4e_b40d_bee9745038a2.png" style="display: none"
+                                class="shop_two">
+                            <br>
+                            <a href="javascript:;">买手机</a>
+                        </li>
+                    </ul>
+
+
+                    <ul>
+                        <li>
+                            <img src="./img/智能小艺/7cd8b33a_92aa_434d_aeca_ca7b7a7c8b32.png" class="shop_img">
+                            <img src="./img/智能小艺/7dfa8aa9_986d_4e4e_b40d_bee9745038a2.png" style="display: none"
+                                class="shop_two">
+                            <br>
+                            <a href="javascript:;">买手机</a>
+                        </li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <p class="footer">Copyright © 2012-2019 All Right Reserved vmall.com 版权所有</p>
+    </div>
+
+    <script src="./js/xiaoyi.js"></script>
+</body>
+
+</html>

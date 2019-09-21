@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>js堆叠卡片轮播图插件stackedCards|DEMO_jQuery之家-自由分享jQuery、html5、css3的插件库</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" /><!--CSS RESET-->
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css"><!--演示页面样式，使用时可以不引用-->
+	<link href="./dist/stackedCards.css" rel="stylesheet" />
+	<link href="css/highlight.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/highlight.js/9.9.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<style>
+		*, *:before, *:after {
+			box-sizing: border-box;
+		}
+		body {
+			color: #444;
+		}
+		html {
+			height: 100%;
+		}
+		body {
+			font-family: "Roboto", sans-serif;
+			width:  100%;
+			height: 100%;
+			min-height: 100%;
+			margin: 0px;
+			padding: 0px;
+			background-color: #eee;
+			background-color: #fff;
+		}
+
+		.stacked-cards h2 {
+			text-align: center;
+			position: relative;
+			top: -20px;
+		}
+
+		.intro {
+			max-width: 600px;
+			margin: 20px auto;
+			text-align: center;
+		}
+
+		.container-fuild {
+			max-width: 80%;
+			margin: 0 auto;
+		}
+
+		.container-fixed {
+			max-width: 767px;
+			margin: 0 auto;
+		}
+
+		.divider {
+			max-width: 500px;
+			margin: 25px auto;
+			background-color: #ccc;
+			height: 2px;
+			width: 100%;
+		}
+
+		.stacked-cards {
+			padding-top: 40px;
+			padding-bottom: 15px;
+		}
+
+		.stacked-cards-fanOut {
+			padding-bottom: 40px;
+		}
+
+		.stacked-cards-fanOut li img {
+			max-height: 200px;
+		}
+
+		.stacked-cards li {
+			height: 300px;
+		}
+
+		@media (max-width: 767px) {
+			.stacked-cards li {
+				height: 180px;
+			}
+		}
+
+		.stacked-cards li {
+			background-color: #00bcd4;
+		}
+
+		.stacked-cards li:nth-child(n) {
+			background-color: #3599db;
+		}
+
+		.stacked-cards li:nth-child(2n) {
+			background-color: #e61b77;
+		}
+
+		.stacked-cards li:nth-child(3n) {
+			background-color: #00bcd4;
+		}
+
+		.stacked-cards li:nth-child(4n) {
+			background-color: #f4b251;
+		}
+
+		.stacked-cards li:nth-child(5n) {
+			/* background-color: #8e4497; */
+			background-color: transparent;
+		}
+		.stacked-cards img{
+			width: 100%;
+			height: 100%;
+		}
+
+		
+	</style>
+</head>
+<body>
+	<div class="htmleaf-container">
+		
+		<div id="wrap">
+	
+		<div class="container-fixed stacked-cards stacked-cards-slide">
+			<h2></h2>
+			<ul>
+				<li>
+                    <img src="HUAWEI_Mate20_系列/slide1.png" alt="">
+				</li>
+				<li>
+                        <img src="HUAWEI_Mate20_系列/slide2.png" alt="">
+				</li>
+				<li>
+                        <img src="iHUAWEI_Mate20_系列/slide3.png" alt="">
+				</li>
+				<li>
+                        <img src="HUAWEI_Mate20_系列/slide4.png" alt="">
+				</li>
+				<li>
+                        <img src="iHUAWEI_Mate20_系列/slide5" alt="">
+				</li>
+				<li>
+                        <img src="HUAWEI_Mate20_系列/slide6.png" alt="">
+				</li>
+				<li>
+                        <img src="HUAWEI_Mate20_系列/slide7.png" alt="">
+				</li>
+				<li>
+                        <img src="HUAWEI_Mate20_系列/slide8.png" alt="">
+				</li>
+				<li>
+                        <img src="HUAWEI_Mate20_系列/slide9.png" alt="">
+				</li>
+				<li>
+					<img src="HUAWEI_Mate20_系列/slide10.png" alt="">
+			   </li>
+			   <li>
+					<img src="HUAWEI_Mate20_系列/slide11.png" alt="">
+			   </li>
+		      	<li>
+					<img src="HUAWEI_Mate20_系列/slide12.png" alt="">
+		    	</li>
+		    	<li>
+				<img src="HUAWEI_Mate20_系列/slide5.png" alt="">
+		     </li>
+			
+			</ul>
+		</div>
+
+		<!-- <div class="container-fixed source"> -->
+
+
+	
+	
+	<script src="./dist/stackedCards.min.js"></script>
+	<script>
+		var stackedCardSlide = new stackedCards({
+		 	selector: '.stacked-cards-slide',
+		 	layout: "slide",
+		 	transformOrigin: "center",
+		 });
+
+		stackedCardSlide.init();
+
+		var stackedCardFanOut = new stackedCards({
+		 	selector: '.stacked-cards-fanOut',
+		 	layout: "fanOut",
+		 	transformOrigin: "bottom",
+		 });
+
+		stackedCardFanOut.init();
+	</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			body {
+				background-color: black;
+			}
+			
+			div {
+				width: 500px;
+				margin: 0 auto;
+				text-align: center;
+			}
+			
+			.bounce {
+				animation-duration: 3s;
+				animation-delay: 0s;
+				animation-iteration-count: infinite;
+			}
+			
+			span {
+				font: 50px "微软雅黑";
+				color: cornflowerblue;
+				/*background: -webkit-linear-gradient(…) 为文本元素提供渐变背景。 
+				webkit-text-fill-color: transparent 使用透明颜色填充文本。 
+				webkit-background-clip: text 用文本剪辑背景，用渐变背景作为颜色填充文本。 */
+				background-image: -webkit-linear-gradient(right, green, white, yellow);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				/*-webkit-mask-image:-webkit-gradient(linear, 0 0, 0 bottom, from(yellow), to(rgba(0, 0, 255, 0)));*/
+			}
+			
+			/*.yourElement {
+				animation-duration: 3s;
+				animation-delay: 2s;
+				animation-iteration-count: infinite;
+			}*/
+		</style>
+	</head>
+
+	<body>
+		<div class="animated bounceInDown">
+			<span style="color: brown;">E</span>
+			<span style="color: green;">x</span>
+			<span style="color: pink;">a</span>
+			<span style="color: orange;">m</span>
+			<span style="color: peru;">p</span>
+			<span style="color: yellowgreen;">l</span>
+			<span style="color: yellowgreen;">e</span>
+		</div>
+	</body>
+
+</html>

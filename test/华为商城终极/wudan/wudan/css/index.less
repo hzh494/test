@@ -1,0 +1,447 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: #e2f1ff;
+}
+
+// 头部栏---------------------------------------------------------
+.header {
+  width: 100%;
+  height: 60px;
+  background: url('../images/logo.jpg') no-repeat top center;
+
+  .logo .nav {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding-left: 650px;
+    padding-right: 50px;
+
+    .login_img {
+      padding-left: 35px;
+      padding-right: 5px;
+    }
+
+    .login::after {
+      content: '';
+      width: 0.5px;
+      height: 14px;
+      background-color: #000;
+      margin-left: 5px;
+      display: inline-block;
+    }
+
+    span {
+      padding-left: 20px;
+
+      &:nth-child(6) {
+        padding: 0 2px;
+      }
+
+      &:nth-child(7) {
+        padding: 0 2px;
+      }
+
+      a {
+        font-size: 18px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+// banner区-------------------------------------------------------
+.banner {
+  width: 100%;
+  height: 760px;
+  background: url('../images/banner.jpg') no-repeat center;
+  display: none;
+}
+
+// tab栏----------------------------------------------------------
+.box_tab {
+  background: #4388dd;
+  z-index: 10;
+  position: relative;
+  top: 0;
+}
+.tab {
+  width: 100%;
+  height: 50px;
+  background-color: #4388dd;
+  z-index: 10;
+  .tab_list {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: row;
+
+    span {
+      cursor: pointer;
+      font-size: 16px;
+      text-align: center;
+      display: inline-block;
+      flex: 20%;
+      height: 100%;
+    }
+  }
+  
+}
+
+// 设置的active是用于点击tab_list中的当前项要添加的类
+.active {
+  background-color: #fff;
+  color: #4388dd;
+}
+
+
+// 产品区块-------------------------------------------------------
+
+// 区块1标题------------------------------------------------------
+.hot_title {
+  width: 100%;
+  height: 160px;
+  background: url('../images/hot-title.png') no-repeat center;
+}
+
+// 区块1,2内容------------------------------------------------------
+.hot_content1,
+.hot_content2,
+.computer_content1,
+.computer_content2,
+.sport_content2,
+.family_content1,
+.family_content2,
+.family_content3 {
+  width: 100%;
+  height: 457px;
+  // background: #ccc;
+  display: flex;
+  padding-bottom: 15px;
+
+  .box {
+    // width: 390px;
+    height: 457px;
+    // background: red;
+    padding: 5px;
+    flex: 1;
+    box-sizing: border-box;
+
+    .img_box {
+      height: 269px;
+
+      img {
+        width: 390px;
+        height: 269px;
+      }
+    }
+
+    .key_words {
+      width: 100%;
+      height: 188px;
+      padding-top: 5px;
+      text-align: center;
+      background: #fff;
+
+      h1 {
+        margin-top: 12px;
+        color: #146df6;
+      }
+
+      p {
+        &:nth-child(2) {
+          font-size: 14px;
+          color: #888080;
+          margin: 10px 0px;
+        }
+
+        &:nth-child(3) {
+          font-size: 20px;
+          color: #ca141d;
+          margin-bottom: 15px;
+        }
+      }
+
+      .price {
+        width: 256px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 25px;
+        background: #dd4367;
+        margin: 0 auto;
+
+        em,
+        i {
+          font-size: 10px;
+          color: #fff;
+        }
+
+        a {
+          font-size: 20px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+// 区块2标题------------------------------------------------------
+.computer_title {
+  width: 100%;
+  height: 160px;
+  background: url('../images/computer-title.png') no-repeat center;
+}
+
+// 区块2,3,4内容-----------------------------------------------------
+.computer_content1,
+.computer_content2,
+.sport_content2,
+.family_content1,
+.family_content2,
+.family_content3 {
+  .box .key_words .price {
+    background-color: #146df6;
+  }
+}
+// 设置小图标------------------------------------------------------
+.computer_content2 .box .tj1,
+.sport_content2 .box .bk {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -463px;
+  }
+}
+.fashion_content1 .box .tj2 {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  z-index: 5;
+  img {
+    width: 100%;
+    position: absolute;
+    left: -450px;
+    bottom: -302px;
+  }
+}
+.family_content1 .box .hx,
+.family_content2 .box .hx {
+  width: 185px;
+  height: 24px;
+  position: relative;
+  img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -460px;
+  }
+}
+// 区块3标题------------------------------------------------------
+.sport_title {
+  width: 100%;
+  height: 160px;
+  background: url('../images/sport-title.png') no-repeat center;
+}
+
+.sport_content1 {
+  width: 100%;
+  height: 457px;
+  background: url('../images/sport1.png') no-repeat center;
+  padding-bottom: 5px;
+}
+
+// 区块4标题------------------------------------------------------
+.family_title {
+  width: 100%;
+  height: 160px;
+  background: url('../images/family-title.png') no-repeat center;
+}
+
+// 区块5标题------------------------------------------------------
+.fashion_title {
+  width: 100%;
+  height: 160px;
+  background: url('../images/fashion-title.png') no-repeat center;
+}
+
+// 区块5内容------------------------------------------------------
+.fashion_content1 {
+  width: 1200px;
+  height: 1236px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  .box {
+    display: inline-block;
+    width: 290px;
+    height: 400px;
+    margin-left: 10px;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    p {
+      font-size: 16px;
+      color: #888080;
+      margin: 10px 0px;
+    }
+    span {
+      display: inline-block;
+      width: 145px;
+      height: 30px;
+      line-height: 30px;
+      border: 1px solid #ca141d;
+      margin: 10px;
+      font-size: 18px;
+      color: #ca141d;
+    }
+    .img_box {
+      width: 180px;
+      height: 180px;
+      margin: 10px auto;
+      img {
+        width: 100%;
+      }
+    }
+    .price {
+      width: 271px;
+      height: 40px;
+      line-height: 40px;
+      background-color: #146df6;
+      margin-left: -10px;
+
+      em {
+        font-size: 14px;
+        color: #fff;
+      }
+      i {
+        font-size: 20px;
+        color: #fff;
+      }
+      img {
+        margin-left: 5px;
+        margin-bottom: 6px;
+      }
+    }
+  }
+}
+
+.fashion_content2 {
+  width: 1200px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  .big_box {
+    display: inline-block;
+    width: 390px;
+    height: 400px;
+    margin-left: 10px;
+    background: #fff;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    text-align: center;
+    p {
+      font-size: 16px;
+      color: #888080;
+      margin: 10px 0px;
+    }
+    span {
+      display: inline-block;
+      width: 145px;
+      height: 30px;
+      line-height: 30px;
+      border: 1px solid #ca141d;
+      margin: 10px;
+      font-size: 18px;
+      color: #ca141d;
+    }
+    .img_box {
+      width: 180px;
+      height: 180px;
+      margin: 10px auto;
+      img {
+        width: 100%;
+      }
+    }
+    .price {
+      width: 286px;
+      height: 40px;
+      line-height: 40px;
+      background-color: #146df6;
+      margin-left: 2px;
+
+      em {
+        font-size: 14px;
+        color: #fff;
+      }
+      i {
+        font-size: 20px;
+        color: #fff;
+      }
+      img {
+        margin-left: 5px;
+        margin-bottom: 6px;
+      }
+    }
+  }
+}
+// ads区-----------------------------------------------------------
+.ads {
+  width: 1190px;
+  height: 200px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  display: none;
+  img {
+    width: 100%;
+  }
+}
+// 底部栏footer----------------------------------------------------
+.footer {
+  width: 1200px;
+  height: 200px;
+  line-height: 200px;
+  // background: red;
+  .btns {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 200px;
+    span {
+      display: inline-block;
+      position: relative;
+      width: 294px;
+      height: 75px;
+      line-height: 75px;
+      color: #fff;
+      font-size: 30px;
+      text-align: center;
+      background-color: #589cf0;
+      border: 5px solid #a6cdff;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: inset 2px 1px 5px 10px rgba(20, 109, 246, 0.3);
+      &:nth-child(2) {
+        margin-left: 150px;
+        em {
+          position: absolute;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+

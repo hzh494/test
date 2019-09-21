@@ -1,0 +1,254 @@
+.s_header {
+  width: 100%;
+  height: 60px;
+  background-color: #ebe8e8;
+}
+.s_header .w {
+  width: 1130px;
+  margin: 0px auto;
+}
+.s_header .w .s_logo {
+  margin-top: 13px;
+  margin-right: 30px;
+}
+.s_header .w span:nth-child(2) {
+  display: block;
+  width: 2px;
+  height: 20px;
+  background-color: #c2bfc2;
+  margin-right: 30px;
+  margin-top: 23px;
+}
+.s_header .w span:last-child {
+  display: block;
+  height: 33px;
+  width: 100px;
+  line-height: 33px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.s_warn {
+  height: 40px;
+  width: 100%;
+}
+.s_warn .w {
+  width: 1130px;
+  margin: 0px auto;
+}
+.s_warn .w span:first-child {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url(../images/prompt.png) no-repeat;
+  background-size: cover;
+  margin-left: 280px;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+.s_warn .w P {
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.s_warn .w span:last-child {
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  background-color: #e4e3e3;
+  margin-top: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.s_main {
+  width: 100%;
+  height: 620px;
+  background-color: #071837;
+}
+.s_main .w {
+  height: 620px;
+  background: url(../images/login_default_bg.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.s_main .w .s_main_login {
+  width: 380px;
+  height: 620px;
+  position: absolute;
+  right: 0px;
+  top: 70px;
+}
+.s_main .w .s_main_login .s_main_top {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 40px;
+}
+.s_main .w .s_main_login .s_main_top span:first-child {
+  flex: 1;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.s_main .w .s_main_login .s_main_top span:first-child :hover {
+  color: steelblue;
+}
+.s_main .w .s_main_login .s_main_top span:first-child:hover {
+  color: steelblue;
+}
+.s_main .w .s_main_login .s_main_top span:nth-child(2) {
+  width: 2px;
+  height: 16px;
+  background-color: #c2bfc2;
+  position: absolute;
+  top: 12px;
+  left: 189px;
+}
+.s_main .w .s_main_login .s_main_top span:last-child {
+  flex: 1;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.s_main .w .s_main_login .s_main_top span:last-child:hover {
+  color: steelblue;
+}
+.s_main .w .s_main_login .s_main_bop {
+  height: 410px;
+}
+.s_main .w .s_main_login .s_main_bop .form_item {
+  position: relative;
+  width: 360px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.s_main .w .s_main_login .s_main_bop .form_item input {
+  width: 285px;
+  height: 40px;
+  padding-left: 70px;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+}
+.s_main .w .s_main_login .s_main_bop .form_item button {
+  width: 357px;
+  height: 40px;
+  border: 0;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #1f6f4a;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.s_main .w .s_main_login .s_main_bop .form_item #username {
+  background: url(../images/emil.png) 20px 10px no-repeat;
+}
+.s_main .w .s_main_login .s_main_bop .form_item #password {
+  background: url(../images/password.png) 25px 6px no-repeat;
+}
+.s_main .w .s_main_login .s_main_bop .form_item .s_tip {
+  position: absolute;
+  left: 40px;
+  top: 42px;
+  font-size: 14px;
+  color: red;
+}
+.s_main .w .s_main_login .s_main_bop #vcode {
+  width: 200px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #fff;
+  padding-left: 40px;
+  background-color: transparent;
+  margin-right: 15px;
+}
+.s_main .w .s_main_login .s_main_bop #code {
+  width: 80px;
+  height: 40px;
+  background: url("../images/ybgc.jpg");
+  display: block;
+  margin-right: 10px;
+  color: #ccc;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  cursor: pointer;
+}
+.s_main .w .s_main_login .s_main_bop .last_form_item {
+  padding-bottom: 10px;
+}
+.s_main .w .s_main_login .s_main_bop .form_item_yz {
+  position: relative;
+  width: 360px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.s_main .w .s_main_login .s_main_bop #gd:hover {
+  color: steelblue;
+}
+.s_main .w .s_main_login .s_main_bop a {
+  color: #fff;
+  text-decoration: none;
+  height: 20px;
+  width: 100px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+}
+.s_main .w .s_main_bom {
+  height: 380px;
+  width: 380px;
+  position: relative;
+}
+.s_main .w .s_main_bom .ewmbox {
+  width: 100%;
+  height: 250px;
+}
+.s_main .w .s_main_bom .ewmbox .ewm {
+  width: 156px;
+  height: 156px;
+  background: url("../images/20181116180507506_1.jpg");
+  background-size: cover;
+  position: absolute;
+  left: 110px;
+  top: 35px;
+  transition: all 1s linear;
+}
+.s_main .w .s_main_bom .ewmbox .smjc {
+  width: 146px;
+  height: 200px;
+  position: absolute;
+  left: 210px;
+  top: -10px;
+  opacity: 0;
+  transition: all 0.5s linear;
+}
+.s_main .w .s_main_bom p {
+  text-align: center;
+}
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}

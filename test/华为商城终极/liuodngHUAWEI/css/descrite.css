@@ -1,0 +1,228 @@
+.w {
+  width: 1266px;
+  margin: 0 auto;
+}
+.top {
+  height: 35px;
+}
+.top .top_one {
+  float: left;
+}
+.top .top_one li {
+  float: left;
+  padding: 0 10px;
+  padding-left: 0;
+  text-align: center;
+  line-height: 35px;
+}
+.top .top_one a {
+  padding: 0 10px;
+  border-right: 1px solid black;
+}
+.top .top_two {
+  float: right;
+}
+.top .top_two li {
+  float: left;
+  padding: 0 10px;
+  padding-left: 0;
+  text-align: center;
+  line-height: 35px;
+}
+.top .top_two a {
+  padding: 0 10px;
+  border-right: 1px solid black;
+}
+.phone {
+  margin-top: 20px;
+  position: relative;
+}
+.phone .tankuang {
+  width: 460px;
+  height: 320px;
+  position: absolute;
+  left: 470px;
+  top: 100px;
+  z-index: 10;
+  background-color: white;
+  display: none;
+}
+.phone .tankuang .guanxi {
+  margin-top: 25px;
+}
+.phone .tankuang .guanxi .quxiaoanniu {
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 23px;
+  border: 1px solid #0000000a;
+  margin-left: 75px;
+}
+.phone .tankuang .guanxi .quedinganniu {
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 23px;
+  background: red;
+  color: white;
+  margin-left: 20px;
+}
+.phone .tankuang P {
+  text-align: right;
+}
+.phone .tankuang span {
+  font-size: 21px;
+  text-align: right;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.phone .tankuang .ig_top img {
+  width: 80px;
+}
+.phone .tankuang .cc_top {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.phone .tankuang .yy {
+  margin-top: 15px;
+  margin-left: 10px;
+  text-align: left;
+  display: inline-block;
+  border: 1px solid red;
+}
+.phone .tankuang .yy span {
+  font-size: 16px !important;
+}
+.phone .tankuang .yy img {
+  width: 40px;
+}
+.phone .tankuang > span {
+  font-size: 20px;
+  margin-left: 160px;
+}
+.phone .p_one {
+  margin-left: 10px;
+}
+.phone #box {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 450px;
+  margin-top: 10px;
+}
+.phone #bigBox {
+  width: 400px;
+  height: 400px;
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  left: 470px;
+  top: 0;
+  border: 1px solid black;
+  background-color: white;
+}
+.phone #box img {
+  width: 450px;
+}
+.phone #bigBox img {
+  position: absolute;
+  width: 700px;
+  height: 600px;
+}
+.phone #mark {
+  width: 175px;
+  height: 175px;
+  position: absolute;
+  cursor: move;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.phone .phone_right {
+  width: 870px;
+  height: 200px;
+  margin-top: 15px;
+}
+.phone .phone_right h1 {
+  font-size: 22px;
+}
+.phone .phone_right .phone_p1 {
+  width: 700px;
+  font-size: 16px;
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.phone .phone_right .xinxi {
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+.phone .phone_right .xinxi .price p {
+  float: left;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.phone .phone_right .xinxi .price .one {
+  margin-left: 20px;
+  color: red;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+.phone .phone_right .xinxi .price p:nth-child(3) {
+  margin-right: 10px;
+  color: red;
+}
+.phone .phone_right .xinxi .price p:last-child {
+  color: red;
+}
+.phone .phone_right .xinxi .zengpin p {
+  float: left;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.phone .phone_right .xinxi .zengpin p:nth-child(2) {
+  margin-left: 25px;
+  color: red;
+  border: 1px solid red;
+  font-size: 12px;
+}
+.phone .phone_right .xinxi .zengpin img {
+  margin-left: 20px;
+  width: 30px;
+  margin-right: 20px;
+}
+.phone .phone_right .xinxi .zengpin p:last-child {
+  color: red;
+  border: 1px solid red;
+  font-size: 12px;
+  cursor: pointer;
+}
+.phone .phone_right .xinxi .jifen {
+  margin-top: 12px;
+}
+.phone .phone_right .xinxi .jifen p:nth-child(1) {
+  float: left;
+  margin-left: 130px;
+  color: red;
+  border: 1px solid red;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.document_mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: black !important;
+  opacity: 0.3;
+  display: none;
+}

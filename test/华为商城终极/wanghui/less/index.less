@@ -1,0 +1,418 @@
+//头部导航区域
+.header_nav{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    img{
+        width: 100%;
+        height: 50px;
+    }
+    .rh_nav{
+        width: 600px;
+        height: 50px;
+        // background-color: aqua;
+        position: absolute;
+        right: 100px;
+        top: 0;
+    }
+    .rh_nav li{
+        float: left;
+    }
+    .rh_nav a{
+        display: block;
+        float: left;
+        padding: 0 15px;
+        height: 50px;
+        line-height: 50px;
+        color: #fff;
+        font-size: 18px;
+    }
+    .rh_nav a:last-child{
+        padding: 0 20px;
+    }
+
+
+    .rh_nav a:hover{
+        color: #000;
+        text-decoration: underline;
+    }
+    .rh_nav li:nth-child(5) a{
+        text-decoration: none;
+    }
+    .rh_nav .one{
+        position: absolute;
+       
+        top: 16px;
+        width: 15px;
+        height: 16px;
+        display: block;
+        background: url(../images/loginIcon.png) no-repeat;
+    }
+    .rh_nav .two{
+        position: absolute;
+        top: 16px;
+       margin-left: 65px;
+        width: 1px;
+        height: 18px;
+        display: block;
+        background-color: #fff;
+
+       
+    }
+    .rh_content{
+        width: 600px;
+        height: 200px;
+        position: absolute;
+        top: 50px;
+        right: 100px;
+        background-color: aqua;
+        opacity: 0.3;
+        overflow: hidden;
+        
+        .public{
+            width: 100%;
+            height: 100%;
+            background-color: yellowgreen;
+            opacity: 0.5;
+        }
+    }
+    
+
+
+
+}
+
+
+// 头部广告区域
+.header{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+
+// 电梯导航
+.fixedtool{
+    width: 150px;
+    height: 300px;
+    // position: absolute; 
+    right:0 ;
+    top: 50px;
+    background-color:#eee;
+    position: fixed;
+    z-index: 100000;
+    cursor: pointer;
+    // display: none;
+    
+
+    li{
+        width: 150px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-bottom: 1px solid #ccc;
+        
+        
+    }
+    .current{
+        background-color: red;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  中间主体广告图片
+.content_img img{
+    width: 100%;
+}
+// 第二轮轮播图展示区域
+.content_show .w{
+height: 200px;
+border: 1px solid #ccc;
+margin-top:10px;
+margin-bottom: 40px;
+}
+
+
+.box2 {
+    width: 1200px;
+    height: 200px;
+    // border: 1px solid #ccc;
+    // margin: 80px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.box2 ul {
+     width: 1400px;
+     height: 200px;
+     position: absolute;
+     left: 0;
+     top: 0;
+}
+
+.box2 li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-right: 1px solid #ccc;
+}
+.box2 img{
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s;
+}
+.box2 img:hover{
+    transform: translateY(-7px);
+    box-shadow: 0 5px 8px 1px #aaa;
+}
+
+
+.btns {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btns a {
+     text-decoration: none;
+     width: 40px;
+     height: 60px;
+     text-align: center;
+     line-height: 60px;
+     color: #fff;
+     background-color: rgba(0,0,0,.5);
+     display: block;
+     float: left;
+}
+.btns a:nth-child(2) {
+    float: right;
+}
+
+.dotteds {
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+}
+.dotteds span{
+    width: 15px;
+    height: 15px;
+    border:1px solid #ccc;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.active {
+    background-color: #888;
+    box-shadow: 0px 0px 5px 3px rgba(230, 215, 215, 0.911);
+}
+
+// 主体banner mate20
+.content2_show img{
+    width: 100%;
+
+}
+
+// 第三轮轮播图展示区域
+.picture_show .w{
+    height: 250px;
+    // border: 1px solid #ccc;
+    margin-top:20px;
+    margin-bottom: 50px;
+    }
+
+   
+
+
+    // 麒麟980展示
+.phone_show img{
+    width: 100%;
+}
+
+// 第四轮轮播图展示区域
+.sunphone_show .w{
+    height: 250px;
+    // border: 1px solid #ccc;
+    margin-top:10px;
+    margin-bottom: 40px;
+    }
+
+    .list_box img{
+        transition:  all 0.5s;
+    }
+    .list_box  img:hover{
+        transform: translateY(-7px);
+        box-shadow: 0 5px 8px 1px #aaa;
+        cursor: pointer;
+    }
+
+    // 路由主题展示
+    .mic img{
+        width: 100%;
+    }
+
+    // 精彩推荐
+    .wonderful{
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        // background-color: aqua;
+       
+    }
+    .wonderful p{
+        color: #000;
+        font-size: 30px;
+    }
+    // 移动小图片展示
+    .move_box{
+        .w{
+            width: 1200px;
+            margin: 0 auto;
+        img{
+            width: 380px;
+            height: 270px;
+            background-color: pink;  
+        }
+        .top{
+            width: 380px;
+            height: 270px;
+            overflow: hidden; 
+        }
+        
+        .bottom{
+            width: 380px;
+         height: 200px;  
+        //  background-color: bisque;
+         display: table;
+         text-align: center;
+         padding: 10px 0;
+         box-sizing: border-box;
+
+        }
+        .bottom p{
+            display: table-cell;
+            vertical-align: middle;
+            span:nth-child(1) {
+                font-size: 25px;
+                color: #000;
+            }
+    
+            span:nth-child(3){
+                font-size: 18px 
+            }
+            span:nth-child(5){
+                font-size: 20px 
+            }
+            .two{
+                display: inline-block;
+                width: 150px;
+                height: 40px;
+                border-radius: 20px;
+                line-height: 40px;
+                background-color: cadetblue;
+                color: #fff;
+                font-size: 20px
+            }
+            span{
+                display: block;
+                margin: 10px;
+            }
+
+        }
+        .public{
+            width: 380px;
+            height: 470px; 
+            float: left;
+            margin-right: 10px;
+        }
+        .bg{
+            background-color: #000;
+            
+        }
+        .b_color{
+            color: #fff;
+        }
+        .moving{
+            transform: scale(1.1);
+        }
+
+        }
+        
+       
+    }
+    // 底部图片展示
+    .footer_img .w{
+        width: 1200px;
+        height: 200px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+
+    }
+
+       // 底部导航区域
+    .footer_nav{
+        .f_nav{
+            width: 400px;
+            height: 40px;
+            margin: 0 auto;
+            .l_btn{
+                position: fixed;
+                bottom: 10px;
+                display: block;
+                float: left;
+                width: 150px;
+                height: 40px;
+                line-height: 40px;
+                border: 1px solid turquoise;
+                text-align: center;
+                color: #000;
+                font-size: 20px;
+            }
+            .l_btn:hover{
+                background-color: teal;
+            }
+
+            .r_btn_move{
+                display: block;
+                position: fixed;
+                bottom: 10px;
+                margin-left: 200px;
+                float: right; 
+                width: 150px;
+                height: 40px;
+                line-height: 40px;
+                border: 1px solid turquoise;
+                text-align: center;
+                color: #000;
+                font-size: 20px;
+            }
+            .bgc{
+                background-color:teal;
+            }
+        }
+        
+
+    }
+
+
+
+
+
+
+
+
+
+
+
